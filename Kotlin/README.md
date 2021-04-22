@@ -2,6 +2,10 @@
 
 ---
 
+val : 불변 변수
+
+var : 가변 변수
+
 ## Collection
 
 ---
@@ -109,3 +113,58 @@ map.replace(2, "asdasdasd") // 인덱스가 Int형이 아니라 String형으로 
 없는 index에 대해 replace나 remove를 하였을 때 error가 발생하는지, 아무 변화 없는지 파악이 필요해 보입니다.
 
 항상 타입과 관련해서 조심하자! 해시맵 선언부에 index, value의 type을 정의하지 않아도 되지만, 신경써야될 부분이 많다! → 오히려 해주는게 더 직관적이고 코드 관리할 때 좋아보입니다.
+
+---
+
+## Class
+
+---
+
+특별한 기능이나 형태를 가진 두 종류의 클래스에 대해 알아봅시다.
+
+### DataClass
+
+데이터를 다루는데에 최적화된 클래스로 5가지 기능을 내부적으로 생성해줍니다.
+
+1. equals() : 객체 내 모든 값(파라미터)이 같은지 판단하는 함수
+2. hashcode() : 객체의 내용에서 고유한 코드를 생성
+3. toString() : 포함된 속성을 보기 쉽게 나타내는 함수
+4. copy() : 객체 복사
+5. componentX() : 속성을 순서대로 반환하는 함수 (component1(), component2()...)
+
+```kotlin
+fun main() {
+
+    val a = General("보영", 212)
+    
+    println(a == General("보영", 212))
+    println(a.hashCode())
+    println(a)
+    
+    val b = Data("루다", 306)
+    
+    println(b == Data("루다", 306))
+    println(b.hashCode())
+    println(b)
+    
+    println(b.copy())
+    println(b.copy("아린"))
+    println(b.copy(id = 618))
+}
+
+class General(val name: String, val id: Int)
+
+data class Data(val name: String, val id: Int)
+
+[출처] [Kotlin] Data class / Enum class|작성자 사이시옷
+```
+
+### Enum Class
+
+Enumerated type. 열거형 클래스, 순차적으로 적용되기 때문에 원하는 상수 value(0, 1, 2)로 값 확인 가능
+
+**특징**
+
+- valueOf 메소드로 열거형을 확인 가능
+- enumValueOf 메소드로 열거형 클래스 확인
+- 클래스 내 메서드 구현 가능(비교 대상은 객체 자기 자신 this 사용!)
