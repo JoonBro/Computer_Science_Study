@@ -7,3 +7,7 @@
 </br>
 
 ## ⭐️ 데이터베이스 [Link](https://github.com/JoonBro/Computer_Science_Study/blob/main/Database/README.md)
+
+</br>
+
+## ⭐️ 운영체제 [Link](https://github.com/JoonBro/Computer_Science_Study/blob/main/OS/README.md)
