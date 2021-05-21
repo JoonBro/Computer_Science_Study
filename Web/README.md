@@ -107,6 +107,36 @@
 - **5xx : Server Error**
   - 서버가 클라이언트 요청을 처리하지 못할 경우 발생합니다. 통신하지 않는 것이 보안상 안전하여 대부분의 에러코드를 500 error로 처리합니다.
 
+| 응답코드 |                             설명                             |
+| :------: | :----------------------------------------------------------: |
+|   100    | Continue(클라이언트로부터 일부 요청을 받았으며 나머지 정보를 계속 요청함) |
+|   101    |                     Swtiching protocols                      |
+|   200    |                              OK                              |
+|   201    |    Created(PUT 메소드에 의해 원격지 서버에 파일이 생성됨)    |
+|   202    |              Accepted(웹 서버가 명령을 수신함)               |
+|   203    | Non-authoritative information(서버가 클라이언트 요청 중 일부만 전송) |
+|   204    | No content(사용자 요구를 처리하였으나 전송할 데이터가 없음)  |
+|   301    |  Moved Permanently(요구한 데이터를 변경된 타 URL에 요청함)   |
+|   302    |                       Not temporarily                        |
+|   304    | Not modified(컴퓨터 로컬의 캐시정보를 이용함, 대체로 gif 등은 웹서버에 요청하지 않음) |
+|   400    |      Bad Request(사용자의 잘못된 요청을 처리할 수 없음)      |
+|   401    |       Unauthorized(인증이 필요한 페이지를 요청한 경우)       |
+|   402    |                   Payment required(에약됨)                   |
+|   403    | Forbidden(접근 금지, 디렉터리 리스팅 요청 및 관리자 페이지 접근 등을 차단) |
+|   404    |                 NotFound(요청한 페이지 없음)                 |
+|   405    |     Method not allowed(허용되지 않는 http method 사용함)     |
+|   407    |      Proxy authentication required(프락시 인증 요구됨)       |
+|   408    |               Request timeout(요청 시간 초과)                |
+|   410    |                  Gone(영구적으로 사용 금지)                  |
+|   412    |             Precondition failed(전체 조건 실패)              |
+|   414    |        Request-URI too long(요청 URL 길이가 긴 경우)         |
+|   500    |            Internal Server error(내부 서버 오류)             |
+|   501    |          Not Implemented(웹 서버가 처리할 수 없음)           |
+|   503    |  Service unavailable(서버가 요청을 처리할 준비가 되지 않음)  |
+|   504    |            Gateway Timeout(게이트웨이 시간 초과)             |
+|   505    |   HTTP version not supported(해당 http 버전 지원되지 않음)   |
+
+
 ---
 Reference
 
