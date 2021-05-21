@@ -80,10 +80,10 @@
   ### **HTTP 멱등성**
 
   ---
-![R1280x0](https://user-images.githubusercontent.com/44499629/119153198-fd6e0b00-ba8b-11eb-97b6-8e99de61187b.jpeg)
+  ![R1280x0](https://user-images.githubusercontent.com/44499629/119153198-fd6e0b00-ba8b-11eb-97b6-8e99de61187b.jpeg)
 
 
-  멱등(idempotent)의 의미는 같은 작업을 계속 반복해도 같은 결과가 나오는 경우를 의미한다. 동일한 자원에 대한 GET요청이라면 클라이언트에 반환되는 모든 응답은 동일해야 한다. 특정 자원에 대한 DELETE의 경우도 자원은 더이상 이용하 수 없어야 하며, DELETE요청을 다시 호출한 경우도 자원은 여전히 사용할 수 없는 상태야여 한다.
+  멱등(idempotent)의 의미는 같은 작업을 계속 반복해도 같은 결과가 나오는 경우를 의미한다. 동일한 자원에 대한 GET요청이라면 클라이언트에 반환되는 모든 응답은 동일해야 한다. 특정 자원에 대한 DELETE의 경우도       자원은 더이상 이용하 수 없어야 하며, DELETE요청을 다시 호출한 경우도 자원은 여전히 사용할 수 없는 상태야여 한다.
 
   출처: [https://javaplant.tistory.com/18](https://javaplant.tistory.com/18)
 
