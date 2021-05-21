@@ -19,8 +19,6 @@
 
 ## HTTP Request(요청) 메세지
 
----
-
 - 요청은 웹 브라우저의 URL을 통해 어느 웹사이트(도메인)의 어느 경로에 있는 페이지를 요청할지 나타내는 행위입니다.
 
 ![Untitled](https://user-images.githubusercontent.com/44499629/119152706-846eb380-ba8b-11eb-9313-63f7ba41f53e.png)
@@ -91,14 +89,10 @@
 
 ## HTTP 응답(Response) 메세지
 
----
-
 ![Untitled 1](https://user-images.githubusercontent.com/44499629/119152788-96505680-ba8b-11eb-94bd-7684babd9efb.png)
 
 
 ## HTTP Status Code(상태코드)
-
----
 
 `HTTP Status Code(상태코드)` 란 서버가 클라이언트에게 응답의 상태를 알리는 수단이며, 5가지 클래스로 분류됩니다.
 
