@@ -80,8 +80,7 @@
   ### **HTTP 멱등성**
 
   ---
-
- https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F9935CE375AE7330A15A3D1![image](https://user-images.githubusercontent.com/44499629/119153072-de6f7900-ba8b-11eb-9bd7-bc0f0e4faeb7.png)
+![R1280x0](https://user-images.githubusercontent.com/44499629/119153198-fd6e0b00-ba8b-11eb-97b6-8e99de61187b.jpeg)
 
 
   멱등(idempotent)의 의미는 같은 작업을 계속 반복해도 같은 결과가 나오는 경우를 의미한다. 동일한 자원에 대한 GET요청이라면 클라이언트에 반환되는 모든 응답은 동일해야 한다. 특정 자원에 대한 DELETE의 경우도 자원은 더이상 이용하 수 없어야 하며, DELETE요청을 다시 호출한 경우도 자원은 여전히 사용할 수 없는 상태야여 한다.
@@ -107,3 +106,5 @@
   - 서버가 해결할 수 없는 클라이언트 측 에러 코드입니다. 주로 클라이언트(사용자)가 서버에 잘못된 요청을 했을 경우 발생합니다.
 - **5xx : Server Error**
   - 서버가 클라이언트 요청을 처리하지 못할 경우 발생합니다. 통신하지 않는 것이 보안상 안전하여 대부분의 에러코드를 500 error로 처리합니다.
+
+[제목 없음](https://www.notion.so/f56f2158434748c88a5f51c36c149261)
