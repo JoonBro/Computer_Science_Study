@@ -81,7 +81,8 @@
 
   ---
 
-  [https://t1.daumcdn.net/cfile/tistory/9935CE375AE7330A15](https://t1.daumcdn.net/cfile/tistory/9935CE375AE7330A15)
+ https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F9935CE375AE7330A15A3D1![image](https://user-images.githubusercontent.com/44499629/119153072-de6f7900-ba8b-11eb-9bd7-bc0f0e4faeb7.png)
+
 
   멱등(idempotent)의 의미는 같은 작업을 계속 반복해도 같은 결과가 나오는 경우를 의미한다. 동일한 자원에 대한 GET요청이라면 클라이언트에 반환되는 모든 응답은 동일해야 한다. 특정 자원에 대한 DELETE의 경우도 자원은 더이상 이용하 수 없어야 하며, DELETE요청을 다시 호출한 경우도 자원은 여전히 사용할 수 없는 상태야여 한다.
 
