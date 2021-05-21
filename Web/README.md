@@ -2,8 +2,6 @@
 
 ## Http란?
 
----
-
 > `HTTP(Hyper Text Transfer Protocol)` 란 HTML(웹문서를 만들기 위한 언어) 문서를 주고 받는데 쓰이는 통신 프로토콜(통신규약)이며, TCP 와 UDP를 사용하여 통신하며, 80번 포트를 사용합니다.
 
 - 웹에서 이루어지는 모든 데이터 교환의 기초이며, `클라이언트-서버 포로토콜`이기도 합니다.
@@ -25,7 +23,7 @@
 
 - 요청은 웹 브라우저의 URL을 통해 어느 웹사이트(도메인)의 어느 경로에 있는 페이지를 요청할지 나타내는 행위입니다.
 
-![Http%20b116b971bacd42e9825c1c78fceb0cac/Untitled.png](Http%20b116b971bacd42e9825c1c78fceb0cac/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/44499629/119152706-846eb380-ba8b-11eb-9313-63f7ba41f53e.png)
 
 요청은 위 요소들로 구성!
 
@@ -95,7 +93,8 @@
 
 ---
 
-![Http%20b116b971bacd42e9825c1c78fceb0cac/Untitled%201.png](Http%20b116b971bacd42e9825c1c78fceb0cac/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/44499629/119152788-96505680-ba8b-11eb-94bd-7684babd9efb.png)
+
 
 ## HTTP Status Code(상태코드)
 
