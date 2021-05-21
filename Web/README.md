@@ -107,4 +107,9 @@
 - **5xx : Server Error**
   - 서버가 클라이언트 요청을 처리하지 못할 경우 발생합니다. 통신하지 않는 것이 보안상 안전하여 대부분의 에러코드를 500 error로 처리합니다.
 
-[제목 없음](https://www.notion.so/f56f2158434748c88a5f51c36c149261)
+---
+Reference
+https://velog.io/@doomchit_3/Internet-HTTP-개념차렷-IMBETPY
+https://developer.mozilla.org/ko/docs/Web/HTTP/Methods
+https://gyrfalcon.tistory.com/entry/HTTP-응답-코드-종류-HTTP-메소드-종류
+---
