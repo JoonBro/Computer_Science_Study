@@ -1,4 +1,4 @@
-# Computer_Science_Study
+# Computer Science Study
 
 👍 **목표 : 1일 1COMMIT!!! 공부하면서 정리하는 공간!!!** 👍
 
