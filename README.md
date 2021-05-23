@@ -1,6 +1,6 @@
 # Computer_Science_Study
 
-👍 **목표 : 1일 1COMMIT!!! 공부하면서 정리하는 공간!!!**👍
+👍 **목표 : 1일 1COMMIT!!! 공부하면서 정리하는 공간!!!** 👍
 
 </br>
 
