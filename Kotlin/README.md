@@ -1,6 +1,11 @@
 # Kotlin
 
----
+### 코틀린(Kotlin)과 자바(Java)의 차이점
+
+1. 코틀린은 자바와 높은 상호 운영성(Java Compatible)을 가지고 있다.
+    - 현재 Android API, JVM Lib, Java Framework를 그대로 사용 가능하며, Java → Kotlin 코드 변환 도구도 제공한다.
+2. 자바보다 높은 안정성을 가지고 있다. 가장 큰 예로 Null Pointer Exception에서 자유롭다.
+3. 자바보다 간결하다.
 
 val : 불변 변수
 
@@ -168,3 +173,10 @@ Enumerated type. 열거형 클래스, 순차적으로 적용되기 때문에 원
 - valueOf 메소드로 열거형을 확인 가능
 - enumValueOf 메소드로 열거형 클래스 확인
 - 클래스 내 메서드 구현 가능(비교 대상은 객체 자기 자신 this 사용!)
+	
+---
+
+### REFERENCE
+
+[https://m.blog.naver.com/PostView.naver?blogId=acornedu&logNo=221091338894&proxyReferer=https:%2F%2Fwww.google.com%2F](https://m.blog.naver.com/PostView.naver?blogId=acornedu&logNo=221091338894&proxyReferer=https:%2F%2Fwww.google.com%2F)
+
