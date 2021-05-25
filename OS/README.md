@@ -180,7 +180,7 @@ Busy Waiting을 하며 lock이 반환될 때 까지 계속 확인하며 기다�
 
 ### 3. 엄격한 교대(Strict Alteration)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59f3b3ac-1530-492a-9c81-95ca38b9ee5a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59f3b3ac-1530-492a-9c81-95ca38b9ee5a/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/44499629/119512816-a24f5780-bdae-11eb-8f56-e2ff7dbd7762.png)
 
 두 프로세스가 공유변수 turn값을 기준으로 임계구역에 진입할지 결정한다. 프로세스 a는 turn값이 0이 될때 까지 무한루프를 돌며, 프로세스 b는 turn값이 1이 될때 까지 무한루프를 돈다. 즉 프로세스 a는 turn = 0일때 반복문을 진입하여 critical_region()함수를 통해 임계구역에 진입한다. 수행 이후 turn값을 1로 변경해 프로세스 b가 임계구역에 진입할 수 있도록 한다.
 
