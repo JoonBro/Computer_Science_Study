@@ -23,5 +23,5 @@
 
 </br>
 
-## ⭐️ WEB [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/DataStructure/README.md)
+## ⭐️ 자료구조 [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/DataStructure/README.md)
 
