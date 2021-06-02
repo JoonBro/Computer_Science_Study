@@ -515,13 +515,3 @@ REFERENCE
 [https://icksw.tistory.com/124](https://icksw.tistory.com/124)
 
 ---
-
-REFERENCE
-
-[https://blog.naver.com/whdgml1996/222195497775](https://blog.naver.com/whdgml1996/222195497775)
-
-[https://velog.io/@hyun0310woo/7.-운영체제-인터럽트에-대해서](https://velog.io/@hyun0310woo/7.-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
-
-[https://velog.io/@codemcd/인터럽트Interrupt-3ek4aww0xj](https://velog.io/@codemcd/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8Interrupt-3ek4aww0xj)
-
-[https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/OS#프로세스와-스레드의-차이](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/OS#%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4)
