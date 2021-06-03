@@ -11,9 +11,9 @@ val : 불변 변수
 
 var : 가변 변수
 
-## Collection
-
 ---
+
+## Collection
 
 코틀린의 컬렉션(Collection)은 쉽게 말해 배열 정도로 보시면 됩니다.
 
