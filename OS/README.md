@@ -247,7 +247,8 @@ Busy Waiting을 하며 lock이 반환될 때 까지 계속 확인하며 기다�
 
 **한정된 자원을 여러 곳에서 사용하려고 할 때 발생할 수 있는 교착 상태**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e6a1750-aa67-4f3a-8181-75a8c3ea0c39/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e6a1750-aa67-4f3a-8181-75a8c3ea0c39/Untitled.png)
+![243E89355714C26E28](https://user-images.githubusercontent.com/44499629/120808448-0d094b80-c584-11eb-9c04-d281e13563d1.png)
+
 
 - P1과 P2가 리소스 1, 2 둘다 얻어야 한다고 가정할 때 P1이 R1을 얻고, P2가 R2를 얻었다면 서로 가지고 있는 자원을 기다리게 된다. 서로 원하는 리소스가 상대방에게 할당되어 있기 때문에 두 프로세스 모두 무한정 기다리게 되는데 이러한 상태를 `Dead Lock`이라고 한다.
 - 즉 대기상태로 들어간 프로세스들이 실행 상태로 변경될 수 없을 때 교착상태라고 한다.
