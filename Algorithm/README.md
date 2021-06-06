@@ -12,9 +12,6 @@
 
 이 알고리즘은 첫 인덱스일 때 n-1개, 이후 n-2, ... 1개씩 비교를 반복한다. 따라서 **시간복잡도**는 `O(n^2)`이다. **공간복잡도**는 단 하나의 배열에서만 진행하므로 `O(n)`이다.
 
-
-구현코드(C++)
-
 ```cpp
 void selectionSort(vector<int> v){
 	for(int i = 0; i < v.size() - 1; i++){
@@ -37,9 +34,6 @@ void selectionSort(vector<int> v){
 
 이 정렬 알고리즘은 **최악의 경우(역으로 정렬되어 있을 때)** 시간복잡도는 `O(n^2)`이다. **이미 정렬되어 있을 경우** 한번씩만 비교하기 때문에 `O(n)` 이다.
 공간복잡도는 `O(n)`
-
-
-구현코드(C++)
 
 ```cpp
 void insertionSort(vector<int> v){
@@ -64,9 +58,6 @@ void insertionSort(vector<int> v){
 
 배열의 형태가 어떻든 전체 비교를 진행하게 되며, 시간복잡도는 `O(n^2)`이다.
 공간복잡도는 `O(n)`
-
-
-구현코드(C++)
 
 ```cpp
 void bubbleSort(vector<int> v){
@@ -106,9 +97,6 @@ A, B 중 하나가 모든 배열값들을 새 배열에 저장할 때 까지 반
 분할 과정은 logN 만큼 일어난다. 매번 반씩 감소하므로 logN만큼 반복해야 크기가 1인 배열로 분할할 수 있다.
 각 분할별로 합병을 진행하므로, 합병정렬의 시간 복잡도는 `O(n * log n)`이다.
 사용하는 공간 복잡도는 정렬을 위한 배열을 하나 더 사용하기 때문에 `2N`개를 사용한다.
-
-
-구현코드(C++)
 
 ```cpp
 void merge(vector<int>& v, int startIndex, int endIndex, int midIndex){
@@ -172,9 +160,6 @@ void mergeSort(vector<int>& v, int startIndex, int endIndex){
 **예제(과정)**
 
 ![quick-sort2](https://user-images.githubusercontent.com/44499629/120925063-afa30500-c711-11eb-8fa6-056f324dab39.png)
-
-
-구현코드(C++)
 
 ```cpp
 int partition(vector<int> &v, int left, int right){
