@@ -212,6 +212,10 @@ void quick_sort(vector<int> &v, int left, int right){
 		
 ```
 
+### Heap Sort(힙 정렬)
+
+`Binary Heap` 자료구조를 활용하여 정렬하는 방식이다. 2가지 방법이 존재한다. 정렬의 대상인 데이터들을 힙에 넣었다가 꺼내는 원리로 Sorting 하는 방법과, 기존의 배열을 `heapify`(heap으로 만들어주는 과정)을 거쳐 꺼내는 원리로 정렬하는 방법이다. `heap`에 데이터를 저장하는 시간 복잡도는 `O(log n)`이고, 삭제 시간복잡도 또한 `O(log n)`이다. 때문에 힙 자료구조를 사용하여 Sorting 하는데 시간복잡도는 `O(log n)`이 된다. 정렬하는 대상이 n개라면 총 `O(n*log n)`이 된다.
+
 ### Non-Comparisons Sorting Argorithm
 
 ### Counting Sort(카운팅 정렬)
