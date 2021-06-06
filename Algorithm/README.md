@@ -2,6 +2,13 @@
 
 ## Sorting(정렬)
 
+정렬에는 2가지 종류가 있다. 비교를 하면서 진행하는 Comparisons 방식과, 그렇지 않은 Non-Comparisons 방식으로 나눌 수 있다.
+
+`Selection Sort`, `Insertion Sort`, `Bubble Sort`, `Merge Sort`, `Quick Sort`, `Heap Sort`
+
+### Comparisons Sorting Argorithm (비교 방식 알고리즘)
+
+
 ### Selection Sort(선택 정렬)
 
 현재 위치에 들어갈 값을 찾아 정렬하는 방법. 현재 위치에 저장될 값의 크기가 Max, Min인지에 따라 최소 선택 정렬(오름차순), 최대 선택 정렬(내림차순)로 구분할 수 있다.
@@ -204,6 +211,17 @@ void quick_sort(vector<int> &v, int left, int right){
 }
 		
 ```
+
+### Non-Comparisons Sorting Argorithm
+
+### Counting Sort(카운팅 정렬)
+
+- 항목들의 순서를 정하기 위해 집합에 각 항목이 몇개씩 있는지 세는 작업을 한다. 이를 통해 각 항목의 Index 범위를 설정할 수 있다.
+- 다만 정수나 정수로 표현할 수 있는 자료에 대해서만 적용 가능하다.
+- 카운트들을 위한 충분한 공간을 할당하려면 집합 내의 가장 큰 정수를 알아야 한다.
+- 시간복잡도 : O(n + k) / n : 리스트의 개수 , k : 정수의 최댓값
+
+예시를 통해 설명이 잘 되어있는 링크 : https://blog.naver.com/hunii123/222326693534
 
 ---
 
