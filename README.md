@@ -25,3 +25,7 @@
 
 ## ⭐️ 자료구조 [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/DataStructure/README.md)
 
+</br>
+
+## ⭐️ 알고리즘 [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/Algorithm/README.md)
+
