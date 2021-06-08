@@ -263,6 +263,53 @@ void quick_sort(vector<int> &v, int left, int right){
 
 이후 우선순위 큐가 비어 있어 과정이 종료됩니다.
 
+- 시간복잡도는 모든 간선은 한번씩 확인해야 하기 때문에 간선 검사하는데 O(E)의 시간이 걸리며, 우선순위 큐에 들어가는 원소는 간선마다 최대 1번씩 들어가므로 O(E), 이를 한번 삽입, 삭제하는데 O(logN)만큼 걸린다. 총 O(E + ElogE) = `O(E Log E)` 이다.
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <algorithm>
+using namespace std;
+int N, M,u,v,d,S;
+vector< vector<pair<int, int> > > edge;
+vector<int> Dijkstra(int start) {
+	vector<int> dist(N+1, -1);
+	priority_queue<pair<int, int> > pq; 
+	// first : dist , second : vertex_pos
+	dist[start] = 0;pq.push(make_pair(-dist[start], start)); 
+	// Min-Heap 처럼 사용하기 위해 앞의 거리 인자에 -값을 곱해줌.
+	while (!pq.empty()) {
+		int here = pq.top().second;
+		int heredist = -pq.top().first;
+		pq.pop();
+		if (heredist > dist[here]) continue;
+		for (int i = 0; i < edge[here].size(); i++) {
+			int there = edge[here][i].first;
+			int nextdist = heredist + edge[here][i].second;
+			if (dist[there] == -1 || dist[there] > nextdist) { //최단 거리 갱신
+				dist[there] = nextdist;
+				pq.push(make_pair(-nextdist, there));
+			}
+		}
+	}
+	return dist;
+}
+
+int main() {
+	cin >> N >> M >> S;
+	edge.resize(N + 1);
+	for (int i = 0; i < M; i++) {
+		cin >> u >> v >> d;
+		edge[u].push_back(make_pair(v, d));
+	}
+	vector<int> dist = Dijkstra(S);
+	for (int i = 1; i <= N; i++) {
+		cout << dist[i] << endl;
+	}
+	return 0;
+}
+```
 ---
 
 REFERENCE
