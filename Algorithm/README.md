@@ -241,7 +241,7 @@ void quick_sort(vector<int> &v, int left, int right){
 
 다익스트라의 동작 과정에 대해 설명하면, `너비 우선 탐색(BFS)`와 비슷합니다. 먼저 해당 노드까지의 최단 거리를 저장할 dist 배열이 필요합니다. 처음에 방문하지 않았기 때문에 -1로 초기화해줍니다. 너비 우선 탐색과 달리 `우선순위 큐`를 사용하여 **방문할 정점**과 **방문할 정점까지의 거리**를 넣어줘야 합니다.
 
-**"예제"**
+**<예제>**
 
 ![image](https://user-images.githubusercontent.com/44499629/121199341-cf6f3000-c8ad-11eb-963e-30a2bc16ef7b.png)
 
