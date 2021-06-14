@@ -32,3 +32,7 @@
 </br>
 
 ## ⭐️ 객체지향 [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/ObjectOriented/README.md)
+
+</br>
+
+## ⭐️ JPA [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/JPA/README.md)
