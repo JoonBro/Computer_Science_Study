@@ -6,7 +6,7 @@
   - [프로세스 생성](#프로세스-생성)
   - [프로세스 종료](#프로세스-종료)
   - [프로세스 상태](#프로세스-종료)
-  - [PCB](#PCB(Process-Control-Block)--프로세스-테이블)
+  - [PCB](#PCBProcess-Control-Block--프로세스-테이블)
 - [스레드(Thread)](#스레드Thread)
 
 
