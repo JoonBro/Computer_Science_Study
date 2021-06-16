@@ -1,8 +1,10 @@
 # 운영체제(OS)
 
-[Process(프로세스)](#Process프로세스)
+### Category
 
-[스레드(Thread)](#스레드Thread)
+- [Process(프로세스)](#Process프로세스)
+  - [프로세스 생성](#프로세스생성)
+- [스레드(Thread)](#스레드Thread)
 
 
 ## Process(프로세스)
