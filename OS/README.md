@@ -1,8 +1,8 @@
 # 운영체제(OS)
 
-[Process(프로세스)](#Process(프로세스))
+[Process(프로세스)](#Process프로세스)
 
-[스레드(Thread)](#스레드(Thread))
+[스레드(Thread)](#스레드Thread)
 
 
 ## Process(프로세스)
