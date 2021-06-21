@@ -136,6 +136,11 @@
 |   504    |            Gateway Timeout(게이트웨이 시간 초과)             |
 |   505    |   HTTP version not supported(해당 http 버전 지원되지 않음)   |
 
+## REST API
+
+**"REST 아키텍처의 제약 조건을 준수하는 애플리케이션 프로그래밍 인터페이스"**
+
+REST는 Representational State Transfer의 줄임말이다. API(Application Programming Interface)는 애플리케이션 소프트웨어를 구축하고 통합하는 정의 및 프로토콜 세트이다.
 
 ---
 Reference
