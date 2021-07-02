@@ -54,6 +54,6 @@
 
 </br>
 
-## ⭐️ SPRING SECURITY [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/Kotlin)
+## ⭐️ SPRING SECURITY [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/SpringSecurity)
 
 </br>
