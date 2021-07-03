@@ -18,6 +18,10 @@
 
 ---
 
+## CS
+
+---
+
 ## ⭐️ 데이터베이스 [Link](https://github.com/JoonBro/Computer_Science_Study/blob/main/Database/README.md)
 
 </br>
@@ -37,6 +41,10 @@
 ## ⭐️ 객체지향 [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/ObjectOriented/README.md)
 
 </br>
+
+---
+
+## 웹 기술
 
 ## ⭐️ WEB [Link](https://github.com/JoonBro/Computer_Science_Study/tree/main/Web/README.md)
 
