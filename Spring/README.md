@@ -132,7 +132,9 @@
 </project>
 ```
 
+## Gradle
 
+의존성 주입 : QueryDsl로 
 
 ### Reference
 
