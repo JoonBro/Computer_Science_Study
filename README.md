@@ -12,6 +12,9 @@
 
 **Spring Security**
 
+**Gradle 의존성 주입 - QueryDSL 적용**
+
+
 </br>
 
 ### <각종 이론 및 개념 정리>
