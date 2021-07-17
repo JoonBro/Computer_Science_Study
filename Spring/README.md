@@ -138,6 +138,22 @@
 
 kapt : kotlin의 Annotation Processor, 해당 의존성을 어노테이션으로 활용가능하도록(라이브러리) 해주는 plugin(플러그인).
 
+QuerydslConfiguration
+
+```kotlin
+
+@configuration
+class QuerydslConfiguration(
+  @PersistenceContext
+  val entityManager: EntityManager
+)
+{
+  @Bean
+  fun jpaQueryFactory() = JPAQueryFactory(entityManager)
+}
+
+```
+
 
 ### Reference
 
