@@ -154,6 +154,29 @@ class QuerydslConfiguration(
 
 ```
 
+build.gradle.kts
+
+```kotlin
+plugins{
+  id("com.ewerk.gradle.plugins.querydsl") version "1.0.10"
+  
+  kotlin("kapt") version "1.5.0"
+}
+
+sourceSets["main"].withConvention(org.jetbrains.kotlin.gradle.plugin.KotlinSourceSet::class){
+  kotlin.srcDir("$buildDir/generated/source/kapt/main")
+}
+
+~
+
+dependencies{
+  implementation("com.querydsl:querydsl-jpa")
+  kapt("com.querydsl:querydsl-apt:4.2.2:jpa)
+ }
+ 
+ ~
+ ```
+ 
 
 ### Reference
 
