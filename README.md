@@ -13,6 +13,7 @@
 **Spring Security**
 
 **Gradle 의존성 주입 - QueryDSL 적용**
+https://github.com/JoonBro/Computer_Science_Study/blob/main/Spring/README.md#gradle
 
 
 </br>
